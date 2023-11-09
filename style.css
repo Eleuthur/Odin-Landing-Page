@@ -1,1 +1,157 @@
 /* CSS for Odin Landing Page Project */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 150px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    margin-right: 150px;
+}
+
+li {
+    list-style-type: none;
+    margin: 25px;
+} 
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+    background-color: #1F2937;
+}
+
+.hero-content {
+    width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 75px;
+}
+
+.hero-content h1 {
+    padding: 0;
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-img {
+    height: 200px;
+    width: 450px;
+    background-color: azure;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: none;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 150px 50px 150px;
+}
+
+.information-header h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    align-self: start;
+    text-align: center;
+}
+
+.info-box {
+    width: 125px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.information img {
+    display: block;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border-color: lightblue;
+}
+
+.quote-section {
+    padding: 150px 200px 150px 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-reference {
+    margin-top: 25px;
+    align-self: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px 150px 75px 150px;
+    background-color: #3882F6;
+    padding: 25px;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.call-to-action-section h3 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action-left {
+
+}
