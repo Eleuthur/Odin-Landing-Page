@@ -140,7 +140,7 @@ button {
     align-items: center;
     margin: 75px 150px 75px 150px;
     background-color: #3882F6;
-    padding: 25px;
+    padding: 40px;
     color: #F9FAF8;
     font-size: 18px;
     border-radius: 10px;
@@ -152,6 +152,16 @@ button {
     margin: 0;
 }
 
-.call-to-action-left {
+.call-to-action-right button {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding: 5px 20px 5px 20px;
+}
 
+.footer {
+    text-align: center;
+    font-size: 18px
+    font-color  #ffffff;
 }
