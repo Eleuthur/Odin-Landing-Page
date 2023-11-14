@@ -162,6 +162,8 @@ button {
 
 .footer {
     text-align: center;
-    font-size: 18px
-    font-color  #ffffff;
+    font-size: 18px;
+    color:  #ffffff;
+    background-color: #1F2937;
+    padding: 75px;
 }
